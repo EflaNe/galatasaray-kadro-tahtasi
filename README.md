@@ -1,102 +1,102 @@
-# Galatasaray Kadro Tahtası 🟡🔴
+# Galatasaray Squad Board 🟡🔴
 
-Galatasaray'ın A takım oyuncularıyla kendi ilk 11'ini oluşturabileceğin, dizilişleri deneyebileceğin ve oyunculara görev atayabileceğin Türkçe bir taktik tahtası.
+An interactive tactics board for building your own Galatasaray starting XI, trying different formations, and assigning player responsibilities. The application interface is in Turkish.
 
-**Kadro doğrulama tarihi: 18 Ekim 2026 · 32 oyuncu · 11 saha oyuncusu · 21 yedek**
+**Squad verified: October 18, 2026 · 32 players · 11 starters · 21 substitutes**
 
-Oyuncu adları, forma numaraları, mevki grupları ve fotoğraflar [Galatasaray'ın resmî A takım sayfasından](https://www.galatasaray.org/pl/futbol-takim-kadrosu/9) alınmıştır. Başlangıçtaki ilk 11, kaptan ve duran top seçimleri uygulamanın örnek tercihleridir; kulübün açıklanmış maç kadrosu değildir. Detaylı taktik rol etiketleri uygulama içi yardımcı tanımlardır.
+Player names, shirt numbers, position groups, and photos come from [Galatasaray's official first-team squad page](https://www.galatasaray.org/pl/futbol-takim-kadrosu/9). The default starting XI, captain, and set-piece takers are example selections for the application. They do not represent an official match lineup. Detailed tactical role labels are provided as application-specific guidance.
 
-## Neden yapıldı?
+## Why this project was built
 
-Bir oyuncu listesini okumak, farklı ilk 11'leri sahada karşılaştırmaya yetmiyor. Bu proje; oyuncuları saha üzerinde konumlandırmayı, dizilişi değiştirmeyi ve yedeklerle alternatifler denemeyi tek ekranda bir araya getiriyor. Sarı-kırmızı vurgular takım kimliğini, yeşil saha ise oyuncuların yerleşimini öne çıkarıyor.
+A player list alone does not show how different starting lineups would look on the pitch. This project brings player positioning, formation changes, and substitutions into one screen so fans can explore their own tactical ideas. Red and yellow accents reflect the club's identity, while the green pitch makes player placement easy to read.
 
-## Ekran görüntüleri ve tasarım kararları
+## Screenshots and design decisions
 
-### Masaüstü: saha ve kadro havuzu birlikte
+### Desktop: the pitch and squad pool side by side
 
-![Galatasaray Kadro Tahtası masaüstü görünümü](docs/screenshots/masaustu.png)
+![Galatasaray Squad Board desktop view](docs/screenshots/masaustu.png)
 
-Saha geniş alanda, yedek kulübesi sağda tutuldu. Böylece oyuncu seçerken diziliş görünür kalıyor. Üstteki diziliş düğmeleri koordinat şablonlarını uyguluyor; oyuncuları elle taşımak ise “Özel” diziliş oluşturuyor. K, P ve F rozetleri kaptanı, penaltıcıyı ve frikikçiyi gösteriyor.
+The pitch occupies the main area, with the substitutes panel on the right. This keeps the formation visible while browsing players. Formation buttons apply coordinate templates; moving players manually creates a custom formation, labeled “Özel” in the interface. The K, P, and F badges identify the captain, penalty taker, and free-kick taker.
 
-### Oyuncu değişikliği: seç, ara, yerleştir
+### Substitutions: select, search, and replace
 
-![Oyuncu seçimi ve arama ile değişiklik akışı](docs/screenshots/oyuncu-degisikligi.png)
+![Selecting a player and searching for a substitute](docs/screenshots/oyuncu-degisikligi.png)
 
-Önce sahadaki oyuncuya, ardından yedekteki oyuncuya tıklanıyor. Seçili oyuncu ve açıklama kutusu hangi pozisyonda değişiklik yapılacağını gösteriyor. Örnekte Leão sahaya alınmış, kaptan seçilmiş ve Deniz Gül aranmış durumda. İsim/numara araması ve mevki filtreleri uzun oyuncu listesini daraltıyor. Masaüstünde yedek oyuncuyu sahaya sürükleyip bırakmak da mümkün.
+Click a player on the pitch, then click a substitute to replace them. A selection highlight and a notice show which position will change. In this example, Leão has been brought into the lineup and made captain, while Deniz Gül is being searched for. Name and shirt-number search, together with position filters, help narrow down the squad. On desktop, substitutes can also be dragged onto the pitch.
 
-### Mobil: dikey kullanım
+### Mobile: a vertical layout
 
-<img src="docs/screenshots/mobil.png" alt="390 piksel genişliğinde mobil görünüm: saha ve altında yedek kulübesi" width="320" />
+<img src="docs/screenshots/mobil.png" alt="Mobile view at 390 pixels wide, with the pitch above the substitutes panel" width="320" />
 
-Dar ekranda paneller alt alta geliyor, oyuncu kartları küçülüyor ve temel eylemler korunuyor. Yedekten oyuncu değiştirmek için dokunarak seçim yapılabiliyor. Saha koordinatları yüzdeyle tutulduğu için yerleşim ekran boyutuna uyum sağlıyor.
+On narrow screens, the panels stack vertically and player cards become smaller while keeping the main controls available. Tap a player on the pitch, then a substitute, to make a change. Percentage-based coordinates let the player layout adapt to the screen size.
 
-## Özellikler
+## Features
 
-- 4-2-3-1, 4-3-3, 4-4-2, 3-4-2-1 ve 3-5-2 dizilişleri.
-- Saha üzerinde serbest oyuncu taşıma ve yedekten değişiklik.
-- Türkçe karakterleri destekleyen isim/forma numarası araması ve mevki filtreleri.
-- Kaptan, penaltı ve frikik görevi atama.
-- Kadroyu tarayıcının `localStorage` alanına otomatik kaydetme ve varsayılana dönme.
-- Resmî kaynaktan kadro ve fotoğraf güncelleme komutu.
+- Five formation presets: 4-2-3-1, 4-3-3, 4-4-2, 3-4-2-1, and 3-5-2.
+- Free player positioning and substitutions.
+- Name and shirt-number search with Turkish character support, plus position filters.
+- Captain, penalty taker, and free-kick taker assignments.
+- Automatic lineup persistence in the browser's `localStorage`, with a reset option.
+- A command to refresh squad data and photos from the official source.
 
-## Nasıl yapıldı?
+## How it works
 
-Arayüz **React 19 + TypeScript** ile geliştirildi. Next.js App Router yapısını Vite üzerinde çalıştıran **vinext**, geliştirme ve üretim derlemesini yönetiyor. Görsel düzen CSS Grid/Flex, medya sorguları ve CSS değişkenleriyle oluşturuldu; Tailwind CSS de proje altyapısında bulunuyor.
+The interface uses **React 19 and TypeScript**. **vinext** runs the Next.js App Router structure on Vite and handles development and production builds. The layout uses CSS Grid, Flexbox, media queries, and CSS variables; Tailwind CSS is also included in the project setup.
 
-Oyuncu verisi arayüzden ayrılarak `data/roster.json` dosyasında tutuluyor. İlk 11; oyuncu kimliği ve yüzde cinsinden `x/y` koordinatlarından oluşuyor. Diziliş seçimi bu koordinatları değiştiriyor; yedekten değişiklik ise seçilen slotun oyuncusunu değiştiriyor. Pointer olayları saha üzerinde taşımayı, HTML sürükle-bırak olayları masaüstünde yedekten eklemeyi sağlıyor.
+Player data is kept separately from the interface in `data/roster.json`. Each starting-XI slot contains a player ID and percentage-based `x/y` coordinates. Selecting a formation updates those coordinates, while making a substitution changes the player assigned to a slot. Pointer events handle movement on the pitch, and HTML drag-and-drop events support bringing substitutes onto the pitch on desktop.
 
-Kadro tarayıcıda saklandığı için bu özellikler bir hesap veya veritabanı gerektirmiyor. Geçersiz kayıtlar kontrol ediliyor; tarayıcı verileri silindiğinde kaydedilen kadro da silinir. Projedeki D1/Drizzle örnekleri başlangıç altyapısından geliyor ve kadro tahtasında kullanılmıyor.
+Lineups are stored in the browser, so these features do not require an account or database. Saved data is validated before use. Clearing browser storage also removes the saved lineup. The D1/Drizzle examples come from the starter infrastructure and are not used by the squad board.
 
 ```text
-app/page.tsx                  Etkileşimler, saha ve oyuncu kartları
-app/globals.css               Takım renkleri, saha çizgileri ve mobil düzen
-data/roster.json              Kaynak, kontrol tarihi ve oyuncu verisi
-public/players/               Yerel oyuncu fotoğrafları
-scripts/update-roster.mjs     Resmî sayfadan veri/fotoğraf güncelleme
-scripts/capture-screenshots.mjs  Tarayıcı kontrolleri ve ekran görüntüleri
-tests/rendered-html.test.mjs  Veri bütünlüğü ve üretim HTML kontrolleri
-docs/screenshots/             README ekran görüntüleri
+app/page.tsx                    Interactions, pitch, and player cards
+app/globals.css                 Club colors, pitch markings, and responsive layout
+data/roster.json                Source, verification date, and player data
+public/players/                 Local player photos
+scripts/update-roster.mjs       Official squad and photo refresh
+scripts/capture-screenshots.mjs Browser checks and screenshot capture
+tests/rendered-html.test.mjs    Data integrity and production HTML checks
+docs/screenshots/              README screenshots
 ```
 
-## Yerel çalıştırma
+## Run locally
 
-Node.js **22.13 veya üzeri** gerekir.
+Requires **Node.js 22.13 or later**.
 
 ```bash
 npm ci
 npm run dev
 ```
 
-Terminalde gösterilen yerel adresi aç. Windows'ta bağımlılıkları kurduktan sonra `Siteyi Baslat.cmd` dosyası da kullanılabilir.
+Open the local address shown in the terminal. On Windows, you can also use `Siteyi Baslat.cmd` after installing the dependencies.
 
 ```bash
-npm run build   # Üretim derlemesi
-npm start       # Üretim sunucusu
-npm run lint    # Kod kontrolü
-npm test        # Derleme + kadro ve sunucuda oluşturulan HTML testleri
+npm run build   # Build for production
+npm start       # Start the production server
+npm run lint    # Check code quality
+npm test        # Build, then run squad and server-rendered HTML tests
 ```
 
-## Kadroyu güncelleme
+## Update the squad
 
 ```bash
 npm run roster:update
 npm test
 ```
 
-Güncelleme komutu resmî sayfadaki oyuncu adını, numarasını, mevki grubunu ve fotoğrafını alır; kontrol tarihini yeniler. Mevcut oyuncuların kısa adlarını ve taktik rol etiketlerini korur. Yeni oyunculara genel bir rol verir; ayrıntılı rol ve kısa adlar JSON dosyasında düzenlenebilir. Kaynakta beklenmeyen yapı veya eksik fotoğraf varsa işlem hata verir; veri dosyası değiştirilmez.
+The update command fetches player names, shirt numbers, position groups, and photos from the official page, then refreshes the verification date. It preserves existing players' short names and tactical role labels. New players receive a general role; detailed roles and short names can be edited in the JSON file. If the source structure is unexpected or a photo cannot be fetched, the command fails without replacing the roster data file.
 
-Bu işlem zamanlanmış veya canlı bir senkronizasyon değildir. Resmî sayfa değiştiğinde komut yeniden çalıştırılmalı, değişiklikler incelenmeli ve yeni sürüm yayımlanmalıdır.
+Updates are run manually. When the official squad page changes, rerun the command, review the changes, and publish a new version.
 
-## Ekran görüntülerini yeniden oluşturma
+## Regenerate screenshots
 
-Geliştirme sunucusu çalışırken ve Google Chrome kuruluysa:
+With the development server running and Google Chrome installed:
 
 ```bash
 node scripts/capture-screenshots.mjs
 ```
 
-Komut; 11 kişilik saha, yedek sayısı, fotoğraflar, diziliş değişimi, oyuncu değişikliği, kaptan seçimi, yenileme sonrası kalıcılık ve mobil taşma kontrolünü yaparak üç PNG oluşturur. Farklı adres için `PREVIEW_URL` ortam değişkeni kullanılabilir.
+The script checks the 11-player lineup, substitute count, photos, formation changes, substitutions, captain assignment, persistence after a reload, and mobile overflow. It then saves three PNG screenshots. Set the `PREVIEW_URL` environment variable to test a different address.
 
-## Kaynak ve kullanım notu
+## Attribution
 
-Bağımsız bir taraftar projesidir; Galatasaray Spor Kulübü'nün resmî uygulaması değildir. Oyuncu fotoğrafları ve kulüple ilişkili görsel haklar ilgili hak sahiplerine aittir. Kaynak bağlantıları `data/roster.json` içinde de bulunur.
+This is an independent fan project and is not an official application of Galatasaray Spor Kulübü. Player photos and club-related visual rights belong to their respective rights holders. Source links are also included in `data/roster.json`.

@@ -1,0 +1,294 @@
+{
+  "source": "https://www.galatasaray.org/pl/futbol-takim-kadrosu/9",
+  "checkedAt": "2026-10-18",
+  "players": [
+    {
+      "id": "1",
+      "number": 1,
+      "name": "Uğurcan Çakır",
+      "short": "U. Çakır",
+      "group": "Kaleci",
+      "role": "KL",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/9dd9166532544af8adf8c58d23d4c254.jpeg"
+    },
+    {
+      "id": "19",
+      "number": 19,
+      "name": "Günay Güvenç",
+      "short": "G. Güvenç",
+      "group": "Kaleci",
+      "role": "KL",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/75102a05297a4fb1a8b783bcdb4ba175.jpeg"
+    },
+    {
+      "id": "24",
+      "number": 24,
+      "name": "Jankat Yılmaz",
+      "short": "J. Yılmaz",
+      "group": "Kaleci",
+      "role": "KL",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/8e428011e65043b2a23228913fd70444.jpeg"
+    },
+    {
+      "id": "60",
+      "number": 60,
+      "name": "Arda Yılmaz",
+      "short": "A. Yılmaz",
+      "group": "Kaleci",
+      "role": "KL",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/9dab8972842a43f3accca37512ed66cb.jpeg"
+    },
+    {
+      "id": "70",
+      "number": 70,
+      "name": "Enes Emre Büyük",
+      "short": "E. Büyük",
+      "group": "Kaleci",
+      "role": "KL",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/8cd14294946d4592818da1cf47fc4027.jpeg"
+    },
+    {
+      "id": "3",
+      "number": 3,
+      "name": "El-Chadaille Bitshiabu",
+      "short": "E. Bitshiabu",
+      "group": "Defans",
+      "role": "STP",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/17a5279e2ddd471db966dc6170472273.jpeg"
+    },
+    {
+      "id": "4",
+      "number": 4,
+      "name": "Ismail Jakobs",
+      "short": "I. Jakobs",
+      "group": "Defans",
+      "role": "SLB",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/57168e59dd064205b08884d99b4d0b9a.jpeg"
+    },
+    {
+      "id": "6",
+      "number": 6,
+      "name": "Davinson Sánchez",
+      "short": "D. Sánchez",
+      "group": "Defans",
+      "role": "STP",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/53e45ca47eaf446487cc10dcd2cdbf15.jpeg"
+    },
+    {
+      "id": "17",
+      "number": 17,
+      "name": "Eren Elmalı",
+      "short": "E. Elmalı",
+      "group": "Defans",
+      "role": "SLB",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/c501210e1f5849eda29bc688dab84015.jpeg"
+    },
+    {
+      "id": "23",
+      "number": 23,
+      "name": "Kaan Ayhan",
+      "short": "K. Ayhan",
+      "group": "Defans",
+      "role": "STP / SĞB",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/cb6d386cd51442eeaf4820fa711b9f99.jpeg"
+    },
+    {
+      "id": "42",
+      "number": 42,
+      "name": "Abdülkerim Bardakcı",
+      "short": "A. Bardakcı",
+      "group": "Defans",
+      "role": "STP",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/7f4d3134330f4daab8df2b308a31e2a5.jpeg"
+    },
+    {
+      "id": "88",
+      "number": 88,
+      "name": "Kazımcan Karataş",
+      "short": "K. Karataş",
+      "group": "Defans",
+      "role": "SLB",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/46111c9ccb794fc8a1d082330db7c82a.jpeg"
+    },
+    {
+      "id": "90",
+      "number": 90,
+      "name": "Wilfried Stephane Singo",
+      "short": "W. Singo",
+      "group": "Defans",
+      "role": "SĞB / STP",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/0b42a4f8c6e145cd90a8b01b77ab3bf2.jpeg"
+    },
+    {
+      "id": "91",
+      "number": 91,
+      "name": "Arda Ünyay",
+      "short": "A. Ünyay",
+      "group": "Defans",
+      "role": "STP",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/b2da2bb3179c44f4bd6c3af4b62fcfab.jpeg"
+    },
+    {
+      "id": "5",
+      "number": 5,
+      "name": "Eyüp Aydın",
+      "short": "E. Aydın",
+      "group": "Orta Saha",
+      "role": "MO",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/17c42c4537d14255b54e0c48877b1708.jpeg"
+    },
+    {
+      "id": "8",
+      "number": 8,
+      "name": "Gabriel Davi Gomes Sara",
+      "short": "G. Sara",
+      "group": "Orta Saha",
+      "role": "MO / 10",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/e42db7869b3e485e99a9ad7b4bf90dfd.jpeg"
+    },
+    {
+      "id": "34",
+      "number": 34,
+      "name": "Lucas Torreira",
+      "short": "L. Torreira",
+      "group": "Orta Saha",
+      "role": "DOS",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/143df9cf7e0d4f9597886874c51a4427.jpeg"
+    },
+    {
+      "id": "99",
+      "number": 99,
+      "name": "Mario Rene Junior Lemina",
+      "short": "M. Lemina",
+      "group": "Orta Saha",
+      "role": "DOS / STP",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/593a1903c8b7432790e77fc1f134301f.jpeg"
+    },
+    {
+      "id": "18",
+      "number": 18,
+      "name": "Lesley Ugochukwu",
+      "short": "L. Ugochukwu",
+      "group": "Orta Saha",
+      "role": "DOS",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/6849d0d5adb2495099dd1747acc753a6.jpeg"
+    },
+    {
+      "id": "20",
+      "number": 20,
+      "name": "İlkay Gündoğan",
+      "short": "İ. Gündoğan",
+      "group": "Orta Saha",
+      "role": "MO / 10",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/a1916908c80e48a2886b684edf267734.jpeg"
+    },
+    {
+      "id": "73",
+      "number": 73,
+      "name": "Berat Luş",
+      "short": "B. Luş",
+      "group": "Orta Saha",
+      "role": "MO",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/b28613de88f949579755d18b8257e3ee.jpeg"
+    },
+    {
+      "id": "74",
+      "number": 74,
+      "name": "Renato Sam-Na Nhaga",
+      "short": "R. Nhaga",
+      "group": "Orta Saha",
+      "role": "MO",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/c1ddbe1c28384620be4658aa9c57aa0d.jpeg"
+    },
+    {
+      "id": "83",
+      "number": 83,
+      "name": "Aleksey Batrakov",
+      "short": "A. Batrakov",
+      "group": "Orta Saha",
+      "role": "10 / MO",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/5f7ed275900a45e59e978cf43cfc3abc.jpeg"
+    },
+    {
+      "id": "7",
+      "number": 7,
+      "name": "Roland Sallai",
+      "short": "R. Sallai",
+      "group": "Forvet",
+      "role": "SĞK / SĞB",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/9721c25b0bf440d984610523c18a36aa.jpeg"
+    },
+    {
+      "id": "10",
+      "number": 10,
+      "name": "Leroy Aziz Sané",
+      "short": "L. Sané",
+      "group": "Forvet",
+      "role": "SĞK",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/f1191217c6fe4d20bd8bcff09fd07f92.jpeg"
+    },
+    {
+      "id": "11",
+      "number": 11,
+      "name": "Yunus Akgün",
+      "short": "Y. Akgün",
+      "group": "Forvet",
+      "role": "SĞK / 10",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/7bf2abf24fc04d3f94ad5fdcde0be66b.jpeg"
+    },
+    {
+      "id": "21",
+      "number": 21,
+      "name": "Deniz Gül",
+      "short": "D. Gül",
+      "group": "Forvet",
+      "role": "SF",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/03c3dc113d0b42c6b3c5f9659d17d4d4.jpeg"
+    },
+    {
+      "id": "27",
+      "number": 27,
+      "name": "Rafael Leão",
+      "short": "R. Leão",
+      "group": "Forvet",
+      "role": "SLK / SF",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/79840c60e6894b34a8c4f2b9a5fc0de6.jpeg"
+    },
+    {
+      "id": "29",
+      "number": 29,
+      "name": "Can Armando Güner",
+      "short": "C. Güner",
+      "group": "Forvet",
+      "role": "KN",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/152ddd40ab064d5b815a2c40c1424469.jpeg"
+    },
+    {
+      "id": "45",
+      "number": 45,
+      "name": "Victor Osimhen",
+      "short": "V. Osimhen",
+      "group": "Forvet",
+      "role": "SF",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/b1614c8dadab4626bd34158aea43b5ad.jpeg"
+    },
+    {
+      "id": "53",
+      "number": 53,
+      "name": "Barış Alper Yılmaz",
+      "short": "B. Yılmaz",
+      "group": "Forvet",
+      "role": "KN / SF",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/87f4d73e682f4cdcb17b0ad493de7ec2.jpeg"
+    },
+    {
+      "id": "62",
+      "number": 62,
+      "name": "Ada Yüzgeç",
+      "short": "A. Yüzgeç",
+      "group": "Forvet",
+      "role": "SF",
+      "photo": "https://hlkiurt3.rocketcdn.com/profiles/326600cb6fc14b48b282cf75c39e6b33.jpeg"
+    }
+  ]
+}
